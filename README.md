@@ -1,4 +1,4 @@
-# vue-bootstrap
+# vue-bs4-componentss
 
 ## Project setup
 ```

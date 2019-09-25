@@ -1,5 +1,5 @@
 {
-  "name": "vue-bootstrap",
+  "name": "vue-bs4-components",
   "version": "0.1.0",
   "main": "src/index.js",
   "description": "基于vue2.X的bootstrap ui(4.x)",
@@ -8,7 +8,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "keywords": ["vue-bootstrap"],
+  "keywords": [
+    "vue-bootstrap",
+    "bootstrap components"
+  ],
   "dependencies": {
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
@@ -18,6 +21,7 @@
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
@@ -48,12 +52,12 @@
     "last 2 versions"
   ],
   "bugs": {
-    "url": "https://github.com/Lenny-Hu/vue-bootstrap/issues"
+    "url": "https://github.com/Lenny-Hu/vue-bs4-components/issues"
   },
   "homepage": "https://github.com/Lenny-Hu",
   "author": "Lenny Hu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lenny-Hu/vue-bootstrap"
+    "url": "https://github.com/Lenny-Hu/vue-bs4-components"
   }
 }
