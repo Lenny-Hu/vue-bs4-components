@@ -1,13 +1,16 @@
 {
   "name": "vue-bootstrap",
   "version": "0.1.0",
-  "private": true,
+  "main": "src/index.js",
+  "description": "基于vue2.X的bootstrap ui(4.x)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": ["vue-bootstrap"],
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
@@ -39,8 +42,18 @@
       "autoprefixer": {}
     }
   },
+  "license": "MIT",
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/Lenny-Hu/vue-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Lenny-Hu",
+  "author": "Lenny Hu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lenny-Hu/vue-bootstrap"
+  }
 }
