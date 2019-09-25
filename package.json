@@ -1,52 +1,71 @@
 {
   "name": "vue-bs4-components",
   "version": "0.1.0",
-  "main": "src/index.js",
   "description": "基于vue2.X的bootstrap ui(4.x)",
+  "author": "Lenny Hu",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
   },
-  "keywords": [
-    "vue-bootstrap",
-    "bootstrap components"
-  ],
+  "main": "src/index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-unit-mocha": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
-    "@vue/test-utils": "^1.0.0-beta.29",
+    "@vue/test-utils": "1.0.0-beta.29",
     "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
+    "globals": {
+      "console": "readonly"
+    },
     "env": {
-      "node": true
+      "node": true,
+      "es6": true,
+      "browser": true
     },
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
+    ]
   },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
     }
   },
-  "license": "MIT",
   "browserslist": [
     "> 1%",
     "last 2 versions"
@@ -55,7 +74,11 @@
     "url": "https://github.com/Lenny-Hu/vue-bs4-components/issues"
   },
   "homepage": "https://github.com/Lenny-Hu",
-  "author": "Lenny Hu",
+  "keywords": [
+    "vue-bootstrap",
+    "bootstrap components"
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lenny-Hu/vue-bs4-components"

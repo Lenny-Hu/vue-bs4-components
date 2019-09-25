@@ -1,0 +1,45 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.g-doc {
+  background: #fefefe;
+}
+
+.g-hd {
+
+}
+
+.g-bd {
+  padding-top: 20px;
+  min-height: 200px;
+}
+
+.g-sd {
+  flex: 0 0 200px;
+  border-right: 1px solid #ccc;
+}
+
+.g-ft {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  > p {
+    position: relative;
+    width: 130px;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: #fefefe;
+  }
+
+  > hr {
+    position: absolute;
+    z-index: 1;
+    width: calc(100% - 30px);
+    top: 16px;
+  }
+}
+
+.g-main {
+  flex: 1;
+  padding: 0 15px;
+}
