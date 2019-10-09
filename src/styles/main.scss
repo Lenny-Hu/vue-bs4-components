@@ -1,14 +1,30 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+html,
+body {
+  height: 100%;
+}
+
+figure {
+  background-color: #f8f9fa;
+}
+
+.code-box {
+  display: block;
+}
+
 .g-doc {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   background: #fefefe;
 }
 
 .g-hd {
-
 }
 
 .g-bd {
+  flex: 1;
   padding-top: 20px;
   min-height: 200px;
 }

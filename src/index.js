@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:02:05
- * @LastEditTime: 2019-09-25 13:41:03
+ * @LastEditTime: 2019-10-09 16:29:08
  * @LastEditors: Please set LastEditors
  */
 
@@ -39,5 +39,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
+  install,
   Alert
 }

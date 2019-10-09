@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-25 10:22:32
- * @LastEditTime: 2019-09-25 15:40:04
+ * @LastEditTime: 2019-10-09 16:05:59
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -18,13 +18,15 @@
     </div>
     <div class="g-bd container-fluid d-flex">
       <div class="g-sd">
-        <nav class="nav flex-column">
+        <nav class="nav flex-column m-nav-sd">
           <router-link class="nav-link" :to="{name: nav.name}" v-for="nav in navList" :key="nav.path">
-            {{nav.name}}
+            {{nav.meta.title}}
           </router-link>
         </nav>
       </div>
       <div class="g-main">
+        <h3>{{$route.meta.title}}</h3>
+        <hr>
         <router-view></router-view>
       </div>
     </div>
@@ -52,11 +54,20 @@ export default {
     }
   },
   created () {
-    console.log(this.$route);
+    console.log(this.$route)
   }
 }
 </script>
 
 <style lang="scss">
 @import './styles/main.scss';
+.m-nav-sd {
+  .nav-link {
+    color: #666;
+
+    &.router-link-active {
+      color: #007bff;
+    }
+  }
+}
 </style>
