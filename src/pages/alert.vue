@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-09 14:38:35
- * @LastEditTime: 2019-10-10 11:53:59
+ * @LastEditTime: 2019-10-10 15:29:46
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -47,6 +47,7 @@
     <doc
       :options="options"
       :events="events"
+      :slots="slots"
     ></doc>
 
   </div>
@@ -73,6 +74,11 @@
         events: {
           close: {
             desc: '当alert关闭时触发'
+          }
+        },
+        slots: {
+          'default': {
+            desc: '默认插槽'
           }
         },
         list: ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark']

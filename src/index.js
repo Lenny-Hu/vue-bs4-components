@@ -2,14 +2,16 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:02:05
- * @LastEditTime: 2019-10-09 16:29:08
+ * @LastEditTime: 2019-10-10 16:00:17
  * @LastEditors: Please set LastEditors
  */
 
 import Alert from './components/alert/index'
+import Badge from './components/badge/index'
 
 const components = [
-  Alert
+  Alert,
+  Badge
 ]
 
 const install = function (Vue, opts = {}) {
@@ -40,5 +42,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Alert
+  Alert,
+  Badge
 }
