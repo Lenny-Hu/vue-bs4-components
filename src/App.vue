@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-25 10:22:32
- * @LastEditTime: 2019-10-09 16:05:59
+ * @LastEditTime: 2019-10-10 13:43:28
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -25,8 +25,13 @@
         </nav>
       </div>
       <div class="g-main">
-        <h3>{{$route.meta.title}}</h3>
-        <hr>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+              <h3>{{$route.meta.title}}</h3>
+            </li>
+          </ol>
+        </nav>
         <router-view></router-view>
       </div>
     </div>

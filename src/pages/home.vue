@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-25 14:11:18
- * @LastEditTime: 2019-10-09 16:05:00
+ * @LastEditTime: 2019-10-10 11:55:55
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -10,7 +10,10 @@
     <figure>
       <pre>
         <script type="text/html" class="code-box">
-        // 全部
+        // 安装
+        npm install vue-bs4-components
+
+        // 全部注册
         import bs4 from 'vue-bs4-components'
         Vue.use(bs4)
 
