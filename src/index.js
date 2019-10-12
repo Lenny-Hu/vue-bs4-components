@@ -2,18 +2,20 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:02:05
- * @LastEditTime: 2019-10-10 17:16:40
+ * @LastEditTime: 2019-10-12 10:43:19
  * @LastEditors: Please set LastEditors
  */
 
 import Alert from './components/alert/index'
 import Badge from './components/badge/index'
 import Breadcrumb from './components/breadcrumb/index'
+import Button from './components/button/index'
 
 const components = [
   Alert,
   Badge,
-  Breadcrumb
+  Breadcrumb,
+  Button
 ]
 
 const install = function (Vue, opts = {}) {
@@ -46,5 +48,6 @@ export default {
   install,
   Alert,
   Badge,
-  Breadcrumb
+  Breadcrumb,
+  Button
 }
