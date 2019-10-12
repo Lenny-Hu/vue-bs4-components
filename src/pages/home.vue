@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-25 14:11:18
- * @LastEditTime: 2019-10-10 11:55:55
+ * @LastEditTime: 2019-10-12 16:59:02
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -25,6 +25,9 @@
         import { Alert } from 'vue-bs4-components'
         Vue.component(bs4.Alert.name, bs4.Alert)
         Vue.component('custom-name', bs4.Alert) // 自定义名称单个注册
+
+        // 模块中使用 <b-组件名称></b-组件名称>
+        <b-alert>alert</b-alert>
 
         </script>
       </pre>

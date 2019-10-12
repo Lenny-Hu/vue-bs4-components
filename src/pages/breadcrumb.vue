@@ -2,21 +2,21 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-09 14:38:35
- * @LastEditTime: 2019-10-10 17:52:15
+ * @LastEditTime: 2019-10-12 16:57:10
  * @LastEditors: Please set LastEditors
  -->
 <template>
   <div>
     <h4>EXAMPLE</h4>
     <hr>
-    <breadcrumb :list="list1"></breadcrumb>
-    <breadcrumb :list="list2"></breadcrumb>
+    <b-breadcrumb :list="list1"></b-breadcrumb>
+    <b-breadcrumb :list="list2"></b-breadcrumb>
     <figure>
       <pre>
         <script type="text/html" class="code-box">
         // html
-        <breadcrumb :list="list1"></breadcrumb>
-        <breadcrumb :list="list2"></breadcrumb>
+        <b-breadcrumb :list="list1"></b-breadcrumb>
+        <b-breadcrumb :list="list2"></b-breadcrumb>
 
         // js
         // list1

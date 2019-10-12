@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:13:50
- * @LastEditTime: 2019-10-10 15:48:34
+ * @LastEditTime: 2019-10-12 16:55:22
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -15,7 +15,7 @@
 
 <script>
   export default {
-    name: 'badge',
+    name: 'b-badge',
     props: {
       type: {
         type: String,

@@ -2,38 +2,38 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-09 14:38:35
- * @LastEditTime: 2019-10-10 16:11:39
+ * @LastEditTime: 2019-10-12 16:55:02
  * @LastEditors: Please set LastEditors
  -->
 <template>
   <div>
     <h4>EXAMPLE</h4>
     <hr>
-    <badge>default</badge>&nbsp;
+    <b-badge>default</b-badge>&nbsp;
     <template v-for="(item, i) in list">
-      <badge :type="item" :key="i">
+      <b-badge :type="item" :key="i">
         {{item}}
-      </badge>
+      </b-badge>
       &nbsp;
     </template>
     <div><br></div>
     <figure>
       <pre>
         <script type="text/html" class="code-box">
-        <badge>default</badge>
-        <badge type="secondary">secondary</badge>
+        <b-badge>default</b-badge>
+        <b-badge type="secondary">secondary</b-badge>
         </script>
       </pre>
     </figure>
 
     <h5>pill</h5>
     <hr>
-    <badge :pill="true">两头半圆形外观</badge>
+    <b-badge :pill="true">两头半圆形外观</b-badge>
     <div><br></div>
     <figure>
       <pre>
         <script type="text/html" class="code-box">
-        <badge :pill="true">两头半圆形外观</badge>
+        <b-badge :pill="true">两头半圆形外观</b-badge>
         </script>
       </pre>
     </figure>

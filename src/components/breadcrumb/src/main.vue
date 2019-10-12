@@ -23,7 +23,7 @@
 
 <script>
   export default {
-    name: 'breadcrumb',
+    name: 'b-breadcrumb',
     props: {
       list: {
         type: Array,

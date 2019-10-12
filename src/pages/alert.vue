@@ -2,44 +2,44 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-09 14:38:35
- * @LastEditTime: 2019-10-10 15:29:46
+ * @LastEditTime: 2019-10-12 16:53:02
  * @LastEditors: Please set LastEditors
  -->
 <template>
   <div>
     <h4>EXAMPLE</h4>
     <hr>
-    <alert>default</alert>
-    <alert :type="item" v-for="(item, i) in list" :key="i">
+    <b-alert>default</b-alert>
+    <b-alert :type="item" v-for="(item, i) in list" :key="i">
       {{item}}
-    </alert>
+    </b-alert>
     <figure>
       <pre>
         <script type="text/html" class="code-box">
-        <alert>default</alert>
-        <alert type="secondary">secondary</alert>
+        <b-alert>default</b-alert>
+        <b-alert type="secondary">secondary</b-alert>
         </script>
       </pre>
     </figure>
 
     <h5>可关闭</h5>
     <hr>
-    <alert :dismissable="true" @close="onClose">可关闭</alert>
+    <b-alert :dismissable="true" @close="onClose">可关闭</b-alert>
     <figure>
       <pre>
         <script type="text/html" class="code-box">
-        <alert :dismissable="true" @close="onClose">可关闭</alert>
+        <b-alert :dismissable="true" @close="onClose">可关闭</b-alert>
         </script>
       </pre>
     </figure>
 
     <h5>延时自动关闭</h5>
     <hr>
-    <alert duration="5000">5秒后自动关闭</alert>
+    <b-alert duration="5000">5秒后自动关闭</b-alert>
     <figure>
       <pre>
         <script type="text/html" class="code-box">
-        <alert duration="5000">5秒后自动关闭</alert>
+        <b-alert duration="5000">5秒后自动关闭</b-alert>
         </script>
       </pre>
     </figure>

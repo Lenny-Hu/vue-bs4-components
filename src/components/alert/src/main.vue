@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:13:50
- * @LastEditTime: 2019-10-09 17:45:46
+ * @LastEditTime: 2019-10-12 16:51:36
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -26,7 +26,7 @@
 
 <script>
   export default {
-    name: 'alert',
+    name: 'b-alert',
     props: {
       type: {
         type: String,
