@@ -2,9 +2,12 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 17:52:46
- * @LastEditTime: 2019-10-16 17:30:01
+ * @LastEditTime: 2019-10-17 13:53:00
  * @LastEditors: Please set LastEditors
  -->
+# 安装
+---
+
 ## CDN | LOCAL
 
 `dist` 目录文件说明

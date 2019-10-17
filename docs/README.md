@@ -2,10 +2,11 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 11:17:36
- * @LastEditTime: 2019-10-17 13:39:33
+ * @LastEditTime: 2019-10-17 13:51:58
  * @LastEditors: Please set LastEditors
  -->
 # 简介
+---
 
 [![NPM](https://img.shields.io/npm/v/vue-bs4-components.svg?style=flat-square)](https://www.npmjs.com/package/vue-bs4-components)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1bc00b59024a492da551c538f1c17e99)](https://www.codacy.com/manual/Lenny-Hu/vue-bs4-components?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lenny-Hu/vue-bs4-components&amp;utm_campaign=Badge_Grade)
