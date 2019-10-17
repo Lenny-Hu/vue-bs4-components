@@ -2,13 +2,14 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 11:17:36
- * @LastEditTime: 2019-10-17 14:30:15
+ * @LastEditTime: 2019-10-17 16:08:09
  * @LastEditors: Please set LastEditors
  -->
 # 简介
 ---
 
 [![NPM](https://img.shields.io/npm/v/vue-bs4-components.svg?style=flat-square)](https://www.npmjs.com/package/vue-bs4-components)
+![npm](https://img.shields.io/npm/dm/vue-bs4-components)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1bc00b59024a492da551c538f1c17e99)](https://www.codacy.com/manual/Lenny-Hu/vue-bs4-components?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lenny-Hu/vue-bs4-components&amp;utm_campaign=Badge_Grade)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Lenny-Hu/vue-bs4-components/blob/master/LICENSE)
 <!-- [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/vue-bs4-components)](https://www.jsdelivr.com/package/npm/vue-bs4-components) -->
