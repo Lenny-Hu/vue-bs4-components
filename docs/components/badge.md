@@ -1,13 +1,11 @@
 <!--
  * @Description: In User Settings Edit
  * @Author: your name
- * @Date: 2019-10-15 15:21:29
- * @LastEditTime: 2019-10-17 14:58:49
+ * @Date: 2019-10-17 14:46:53
+ * @LastEditTime: 2019-10-17 15:05:14
  * @LastEditors: Please set LastEditors
  -->
-
-
-# Alert
+# Badge
 ---
 
 ## 基础
@@ -18,10 +16,13 @@
 
   <template>
     <div>
-      <b-alert>default</b-alert>
-      <b-alert :type="item" v-for="(item, i) in list" :key="i">
-        {{item}}
-      </b-alert>
+      <b-badge>default</b-badge>
+      <template v-for="(item, i) in list">
+        <b-badge :type="item" :key="i">
+          {{item}}
+        </b-badge>
+        &nbsp;
+      </template>
     </div>
   </template>
 
@@ -37,7 +38,7 @@
 
 </script>
 
-## 可关闭
+## pill
 
 <vuep template="#example2"></vuep>
 
@@ -45,31 +46,7 @@
 
   <template>
     <div>
-      <b-alert :dismissable="true" @close="onClose">可关闭</b-alert>
-    </div>
-  </template>
-
-  <script>
-    export default {
-      methods: {
-        onClose () {
-          alert('关闭事件');
-        }
-      }
-    };
-  </script>
-
-</script>
-
-## 延时关闭
-
-<vuep template="#example3"></vuep>
-
-<script v-pre type="text/x-template" id="example3">
-
-  <template>
-    <div>
-      <b-alert duration="5000">5秒后自动关闭</b-alert>
+      <b-badge :pill="true">两头半圆形外观</b-badge>
     </div>
   </template>
 
@@ -77,18 +54,13 @@
     export default {
     };
   </script>
-  
+
 </script>
 
 ## Props
 
 * `type`: `String?: primary` 可选值 ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark']
-* `dismissable`: `Boolean?: false` 是否显示关闭按钮
-* `duration`: `(String | Number)?: 0` 延迟关闭时间，单位：`毫秒`
-
-## Events
-
-* `close`: 关闭时触发
+* `pill`: `Boolean?: false` 两头半圆形外观
 
 ## Solts
 
