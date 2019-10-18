@@ -2,11 +2,11 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-18 14:50:33
- * @LastEditTime: 2019-10-18 15:46:25
+ * @LastEditTime: 2019-10-18 16:12:03
  * @LastEditors: Please set LastEditors
  */
 import { expect } from 'chai'
-import bs4 from '@/index'
+import bs4 from '../../bs4'
 import _ from 'lodash'
 import Vue from 'vue'
 

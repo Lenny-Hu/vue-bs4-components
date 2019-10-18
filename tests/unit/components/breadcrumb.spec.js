@@ -2,12 +2,12 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-25 10:42:47
- * @LastEditTime: 2019-10-10 18:10:24
+ * @LastEditTime: 2019-10-18 16:12:42
  * @LastEditors: Please set LastEditors
  */
 import { expect } from 'chai'
 import { shallowMount } from '@vue/test-utils'
-import Breadcrumb from '@/components/breadcrumb/src/main.vue'
+import Breadcrumb from '../../../bs4/components/breadcrumb/src/main.vue'
 
 describe('Breadcrumb', function () {
   it('default', function () {

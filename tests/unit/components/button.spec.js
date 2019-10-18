@@ -7,7 +7,7 @@
  */
 import { expect } from 'chai'
 import { shallowMount } from '@vue/test-utils'
-import Button from '@/components/button/src/main.vue'
+import Button from '../../../bs4/components/button/src/main.vue'
 
 describe('Button', function () {
   it('default', function () {

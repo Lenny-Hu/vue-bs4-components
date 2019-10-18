@@ -7,7 +7,7 @@
  */
 import { expect } from 'chai'
 import { shallowMount } from '@vue/test-utils'
-import Badge from '@/components/badge/src/main.vue'
+import Badge from '../../../bs4/components/badge/src/main.vue'
 
 describe('Badge', function () {
   it('default', function () {

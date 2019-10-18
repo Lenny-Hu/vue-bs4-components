@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-18 14:29:52
- * @LastEditTime: 2019-10-18 14:40:18
+ * @LastEditTime: 2019-10-18 16:13:37
  * @LastEditors: Please set LastEditors
  */
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
   'skip-full': true,
   all: true,
   include: [
-    'src/**/*.{js,vue}'
+    'bs4/**/*.{js,vue}'
   ],
   exclude: [
     // 'src/*.js'

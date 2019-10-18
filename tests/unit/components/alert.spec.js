@@ -2,12 +2,12 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-25 10:42:47
- * @LastEditTime: 2019-10-10 14:50:20
+ * @LastEditTime: 2019-10-18 16:12:29
  * @LastEditors: Please set LastEditors
  */
 import { expect } from 'chai'
 import { shallowMount } from '@vue/test-utils'
-import Alert from '@/components/alert/src/main.vue'
+import Alert from '../../../bs4/components/alert/src/main.vue'
 
 describe('Alert', function () {
   it('default', function () {

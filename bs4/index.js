@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:02:05
- * @LastEditTime: 2019-10-12 10:43:19
+ * @LastEditTime: 2019-10-18 16:10:21
  * @LastEditors: Please set LastEditors
  */
 
@@ -18,8 +18,9 @@ const components = [
   Button
 ]
 
-const install = function (Vue, opts = {}) {
-  console.log(opts)
+const install = function (Vue) {
+  // opts = {}
+  // console.log(opts)
   // locale.use(opts.locale)
   // locale.i18n(opts.i18n)
 
