@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 11:17:36
- * @LastEditTime: 2019-10-18 17:11:53
+ * @LastEditTime: 2019-10-18 17:30:11
  * @LastEditors: Please set LastEditors
  -->
 # 简介
@@ -33,22 +33,22 @@
 
 ## 兼容性
 
-  > 同bootstrap4.X版本一致，更多请查阅 https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/
+> 同bootstrap4.X版本一致，[bootstrap4的兼容性](https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/)
 
-  * Chrome >= 45
-  * Firefox >= 38
-  * Edge >= 12
-  * Explorer（IE） >= 10
-  * iOS >= 9
-  * Safari >= 9
-  * Android >= 4.4
-  * Opera >= 30
+* Chrome >= 45
+* Firefox >= 38
+* Edge >= 12
+* Explorer（IE） >= 10
+* iOS >= 9
+* Safari >= 9
+* Android >= 4.4
+* Opera >= 30
 
 ## 反馈 & 支持
 
-- 在 [GitHub issue](https://github.com/Lenny-Hu/vue-bs4-components/issues) 提交Bug或者建议
-- 关注 [@Lenny-Hu](https://github.com/Lenny-Hu)
-- 到 [star on GitHub](https://github.com/Lenny-Hu/vue-bs4-components) 添加一颗 ⭐
+* 在 [GitHub issue](https://github.com/Lenny-Hu/vue-bs4-components/issues) 提交Bug或者建议
+* 关注 [@Lenny-Hu](https://github.com/Lenny-Hu)
+* 到 [star on GitHub](https://github.com/Lenny-Hu/vue-bs4-components) 添加一颗 ⭐
 
 ## License
 
