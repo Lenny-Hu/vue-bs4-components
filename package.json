@@ -1,6 +1,6 @@
 {
   "name": "vue-bs4-components",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "基于vue2.X的bootstrap ui(4.x)",
   "author": "Lenny Hu",
   "scripts": {
@@ -11,7 +11,7 @@
     "docs": "docsify serve docs",
     "test:unit": "nyc vue-cli-service test:unit && nyc report --reporter=text-lcov | coveralls"
   },
-  "main": "src/index.js",
+  "main": "bs4/index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "vue": "^2.6.10"

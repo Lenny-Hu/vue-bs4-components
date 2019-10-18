@@ -2,11 +2,10 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 11:17:36
- * @LastEditTime: 2019-10-18 17:11:13
+ * @LastEditTime: 2019-10-18 17:15:46
  * @LastEditors: Please set LastEditors
  -->
 # vue-bs4-components
----
 
 [![Build Status](https://travis-ci.org/Lenny-Hu/vue-bs4-components.svg?branch=master)](https://travis-ci.org/Lenny-Hu/vue-bs4-components)
 [![Coverage Status](https://coveralls.io/repos/github/Lenny-Hu/vue-bs4-components/badge.svg)](https://coveralls.io/github/Lenny-Hu/vue-bs4-components)
