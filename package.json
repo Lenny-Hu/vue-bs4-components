@@ -9,7 +9,8 @@
     "lint": "vue-cli-service lint",
     "pack": "vue-cli-service build --target lib --name vue-bs4-components bs4/index.js",
     "docs": "docsify serve docs",
-    "test:unit": "nyc vue-cli-service test:unit && nyc report --reporter=text-lcov | coveralls"
+    "test:unit": "nyc vue-cli-service test:unit && nyc report --reporter=text-lcov | coveralls",
+    "test:unit:watch": "vue-cli-service test:unit --watch"
   },
   "main": "bs4/index.js",
   "dependencies": {

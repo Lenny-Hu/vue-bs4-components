@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:02:05
- * @LastEditTime: 2019-10-18 16:10:21
+ * @LastEditTime: 2019-10-23 11:10:07
  * @LastEditors: Please set LastEditors
  */
 
@@ -10,12 +10,14 @@ import Alert from './components/alert/index'
 import Badge from './components/badge/index'
 import Breadcrumb from './components/breadcrumb/index'
 import Button from './components/button/index'
+import ButtonGroup from './components/button-group/index'
 
 const components = [
   Alert,
   Badge,
   Breadcrumb,
-  Button
+  Button,
+  ButtonGroup
 ]
 
 const install = function (Vue) {
@@ -50,5 +52,6 @@ export default {
   Alert,
   Badge,
   Breadcrumb,
-  Button
+  Button,
+  ButtonGroup
 }
