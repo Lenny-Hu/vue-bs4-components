@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "pack": "vue-cli-service build --target lib --name vue-bs4-components bs4/index.js",
+    "pack": "vue-cli-service build --target lib --name vue-bs4-components bs4/index.js & copy dist/vue-bs4-components.umd.min.js docs",
     "docs": "docsify serve docs",
     "test:unit": "nyc vue-cli-service test:unit && nyc report --reporter=text-lcov | coveralls",
     "test:unit:watch": "vue-cli-service test:unit --watch"

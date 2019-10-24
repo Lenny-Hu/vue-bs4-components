@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 15:27:18
- * @LastEditTime: 2019-10-21 16:49:37
+ * @LastEditTime: 2019-10-23 14:30:54
  * @LastEditors: Please set LastEditors
  -->
 * [简介]()
@@ -13,3 +13,4 @@
   * [Breadcrumb](components/breadcrumb)
   * [Button](components/button)
   * [ButtonGroup](components/button-group)
+  * [Card](components/card)
