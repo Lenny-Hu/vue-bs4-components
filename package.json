@@ -1,6 +1,6 @@
 {
   "name": "vue-bs4-components",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "基于vue2.X的bootstrap ui(4.x)",
   "author": "Lenny Hu",
   "scripts": {
