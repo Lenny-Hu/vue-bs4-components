@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-24 16:02:05
- * @LastEditTime: 2019-10-23 11:56:54
+ * @LastEditTime: 2019-10-24 15:20:47
  * @LastEditors: Please set LastEditors
  */
 
@@ -12,6 +12,7 @@ import Breadcrumb from './components/breadcrumb/index'
 import Button from './components/button/index'
 import ButtonGroup from './components/button-group/index'
 import Card from './components/card/index'
+import Carousel from './components/carousel/index'
 
 const components = [
   Alert,
@@ -19,7 +20,8 @@ const components = [
   Breadcrumb,
   Button,
   ButtonGroup,
-  Card
+  Card,
+  Carousel
 ]
 
 const install = function (Vue) {
@@ -29,7 +31,7 @@ const install = function (Vue) {
   // locale.i18n(opts.i18n)
 
   components.forEach(component => {
-    Vue.component(component.name, component)
+    Vue.use(component)
   })
 
   // Vue.use(InfiniteScroll)
@@ -56,5 +58,6 @@ export default {
   Breadcrumb,
   Button,
   ButtonGroup,
-  Card
+  Card,
+  Carousel
 }

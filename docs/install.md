@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 17:52:46
- * @LastEditTime: 2019-10-17 13:53:00
+ * @LastEditTime: 2019-10-24 15:18:42
  * @LastEditors: Please set LastEditors
  -->
 # 安装
@@ -41,7 +41,7 @@ Vue.use(bs4)
 
 // 单个注册（插件安装形式）
 import { Alert } from 'vue-bs4-components'
-Vue.use(bs4)
+Vue.use(Alert)
 
 // 单个注册（需要自定义名称的情况下）
 import { Alert } from 'vue-bs4-components'

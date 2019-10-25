@@ -15,6 +15,7 @@
   "main": "bs4/index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "swiper": "^5.1.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
