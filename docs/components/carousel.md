@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-10-15 15:21:29
- * @LastEditTime: 2019-10-25 10:27:03
+ * @LastEditTime: 2020-10-28 11:35:22
  * @LastEditors: Please set LastEditors
  -->
 
@@ -15,8 +15,8 @@
 > 此组件仅依赖 [swiper](https://github.com/nolimits4web/swiper)，需要先引用以下代码
 
 ```
-<link rel="stylesheet" href="//unpkg.com/swiper/css/swiper.min.css">
-<script src="//unpkg.com/swiper/js/swiper.min.js"></script>
+<link rel="stylesheet" href="//unpkg.com/swiper@6.3.4/swiper-bundle.min.css">
+<script src="//unpkg.com/swiper@6.3.4/swiper-bundle.min.js"></script>
 ```
 
 
